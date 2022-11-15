@@ -1,0 +1,31 @@
+source venv/bin/activate
+
+
+
+{
+    "age": 18,
+    "famsize":0,
+    "Fedu":4,
+    "reason":0,	
+    "guardian":1,	
+    "traveltime":2,	
+    "studytime":2,	
+    "failures":0,	
+    "famrel":4,	
+    "freetime":3,	
+    "Walc":1,	
+    "health":3,
+    "G1":5,
+    "G2":6,
+    "gender":0,	
+    "absences_skew_r":1.791759,	
+    "address_encoded":1,
+    "schoolsup_encoded":1,	
+    "famsup_encoded":0,	
+    "paid_encoded":0,
+    "activities_encoded":0,	
+    "nursery_encoded":1,
+    "higher_encoded":1,	
+    "internet_encoded":0,	
+    "romantic_encoded":0
+}
