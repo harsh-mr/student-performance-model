@@ -42,4 +42,4 @@ with open("Sperformance.sav", "rb") as f:
 async def scoring_endpoint(item: scoringItem):
     df=pd.DataFrame([item.dict().values()],columns=item.dict().keys())
     yhat=model.predict(df)
-    return {"prediction":int(yhat)}
+    return {"prediction":float(yhat)}

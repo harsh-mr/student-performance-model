@@ -1,6 +1,7 @@
+python3 -m venv venv
 source venv/bin/activate
-
-
+pip install uvicorn gunicorn fastapi pydantic sklearn pandas keras tensorflow
+uvicorn run:app --reload
 
 {
     "age": 18,
